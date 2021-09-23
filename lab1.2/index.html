@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--  Доповнити сайт формою реєстрації користувача (логін, електронна пошта, пароль, підтвердження згідності з умовами, "якщо забули пароль"). -->
+<div class="form_wrapper">
+
+    <div class="form1">
+        <h1>Форма реєстрації користувача</h1>
+        <form action="#" method="post" enctype="multipart/form-data">
+            <div class="first_name">
+                <label for="fname">Ім'я користувача :</label><br>
+                <br>
+                <input type="text" name="username" value="">
+            </div>
+            <div class="last_name">
+                <label for="lname"> Призвіще користувача : </label><br>
+                <br>
+                <input type="text" name="username" value="">
+            </div>
+            <div class="email">
+                <label for="email"> Електронна адреса :</label><br>
+                <br>
+                <input type="text" name="username" value="">
+            </div>
+            <div class="password">
+                <label for="password"> Введіть пароль :</label><br>
+                <br>
+                <input type="password" name="username" value="">
+            </div>
+            <div class="forgot">
+                <a href="#">Забули пароль?</a>
+            </div>
+            <div class="permission">
+               <p><input type="checkbox" name="permission" value="yes"> Я погоджуюсь з умовами користування</p> 
+            </div>
+            <div class="submit__buton">
+                <button> Зареєструватись</button>
+            </div>
+    
+        </form>
+    </div>
+
+
+
+     <!--  Ствопорити форму пошуку: (рядок пошуку(інпут з кночкою), варіанти сортування(випадаючий список), фільтр(чекбокси)) -->
+    <form action="#" method="post" enctype="multipart/form-data">
+        <div class="form2">
+            <div class="search">
+                <div class="input2__title">
+                  Пошук по містам України
+                </div>
+                <div class="search_row">
+                    <div class="input">
+                        <input type="text" placeholder="введіть назву міста..">
+                    </div>
+                    <div class="button">
+                        <img src="img/4801315_glass_magnifier_magnifying_search_searching_icon.png" alt="">
+                    </div>
+                </div>
+               
+                
+               
+            </div>
+            <div class="chekbox__row">
+                <div class="input2__title">
+                    Регіони України в яких вибули
+                </div>
+                <div class="input2">
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                    <label for="vehicle1"> Захід</label><br>
+                    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                    <label for="vehicle2"> Схід</label><br>
+                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                    <label for="vehicle3">Північ</label><br>
+                    <input type="checkbox" id="vehicle4" name="vehicle4" value="Bot">
+                    <label for="vehicle4"> Південь</label><br>
+                    <input type="checkbox" id="vehicle5" name="vehicle5" value="Bat">
+                    <label for="vehicle5"> Центр</label>
+                </div>
+            </div>
+            <div class="filtr">
+                <div class="filtr__row">
+                    <select name="" id="">
+                       <option value="">сортувати за</option>
+                       <option value="">к-тю жителів</option>
+                       <option value="">рівнем життя</option>
+                      
+                       <option value="">площею</option>
+                       
+                    </select> 
+    
+                </div>
+            </div>
+        </div>
+
+
+
+    </form>
+
+
+   
+
+
+     <!-- Фому додавання нової статі(заголовок, текст статті, вибір файлів для завантаження) -->
+    <form action="#" method="post" enctype="multipart/form-data">
+        <div class="form3">
+            <div class="form3__title">
+                Завантажте нову статтю
+            </div>
+            <div class="form3__zaholovok">
+                <input type="text" placeholder="введіть заголовок статті..">
+            </div>
+            <div class="form3__text">
+                <textarea name="" id="" cols="30" rows="10" placeholder="введіть текст статті.."></textarea>
+            </div>
+            <div class="form3__phtitle">
+                Оберіть фото для заставки
+            </div>
+            <div class="form3__file">
+                <p><input type="file" name="photo" multiple accept="image/*,image/jpeg" ></p>
+            </div>
+            <div class="form3__send">
+                <input type="submit" value="Завантажити">
+            </div>
+    
+        </div>
+   
+       
+    
+
+    </form>
+
+</div>
+    
+
+
+   
+
+
+
+   
+
+</body>
+</html>
